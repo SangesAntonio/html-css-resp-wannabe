@@ -1,0 +1,252 @@
+@media  screen and (max-width: 419px) {
+    .row,
+    .container { 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-top: 0;
+        
+    }
+    body{
+        margin: 0;
+    }
+    h1{
+        font-size: 2rem;
+        margin-top: 0px;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    
+}
+
+@media screen and (max-width: 419px) {
+    
+    #lezioni,
+    #why.container{
+        background-color: #F2F2CD;
+    }
+    #steps {
+        background-color: white;
+    }
+    
+}
+
+@media screen and (max-width: 419px) {
+    img {
+        height: 70px;
+    }
+    #why .row img{
+        height: 40px;
+    }
+    
+    h3 {
+        margin: 0;
+    }
+    
+}
+@media screen and (max-width: 419px) {
+    
+    #lezioni .row>.left,
+    #lezioni .row>.right{
+        width: 100%;
+        margin-bottom: 20px;
+        font-size: 12px;
+    }
+    
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+        width: 100%;
+        margin-top: 20px;
+        font-size: 12px;
+    }
+    #why .row>.first,
+    #why .row>.second,
+    #why .row>.third {
+        width: 100%;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .container{
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+}
+
+/****MEDIA QUERY IPAD***/
+
+@media  screen and (min-width: 421px) {
+    .row,
+    .container { 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 0;
+        
+    }
+    body{
+        margin: 0;
+    }
+    h1{
+        font-size: 2rem;
+        margin-top: 0px;
+        display: block;
+        width: 100%;
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+    
+}
+
+@media screen and (min-width: 421px) {
+    
+    #lezioni .row>.left,
+    #lezioni .row>.right{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin-bottom: 20px;
+        font-size: 12px;
+    }
+    
+    #steps .row>.left,
+    #steps .row>.central {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        font-size: 12px;
+    }
+    #steps .row>.right {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        font-size: 12px;
+
+    }
+
+    #why .row>.first,
+    #why .row>.second,
+    #why .row>.third {
+        width: 50%;
+        margin-top: 10px;
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #why .row>.third{
+        width: 100%;
+        margin-top: 10px;
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .container{
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+}
+
+@media screen and (min-width: 421px) {
+    img {
+        height: 140px;
+    }
+    #why .row img{
+        height: 120px;
+    }
+    
+    h3 {
+        margin: 0;
+    }
+    #steps{
+        background-color: #F6C37A;
+    }
+    
+}
+
+@media screen and (min-width: 821px){
+    .row {
+        width: 992px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+      }
+      
+      /* BLOCCO LEZIONI */
+      #lezioni .row>.left,
+      #lezioni .row>.right {
+        width: 50%;
+        float: left;
+      }
+      
+      #lezioni .row img {
+        /* per centrare orizzontalmente */
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+      }
+      
+      #lezioni {
+        text-align: center;
+      }
+      
+      /* BLOCCO STEPS */
+      #steps .row>.left,
+      #steps .row>.central,
+      #steps .row>.right {
+        float: left;
+        width: 33%;
+      }
+      
+      #steps {
+        text-align: center;
+        background-color: #f9f9f9;
+      }
+      
+      /* BLOCCO PERCHE */
+      #why {
+        text-align: center;
+      }
+      
+      #why .row>.first,
+      #why .row>.second,
+      #why .row>.third {
+        width: 100%;
+        margin-top: 80px;
+      }
+      
+      #why .row img {
+        background-color: #428bca;
+        border-radius: 50%;
+        padding: 30px
+      }
+      
+      /* COMMON */
+      .row::after {
+        content: '';
+        display: table;
+        clear: both;
+      }
+      
+      .container.grey {
+        background-color: #f9f9f9;
+      }
+      
+      img {
+        height: 200px;
+      }
+}
+
