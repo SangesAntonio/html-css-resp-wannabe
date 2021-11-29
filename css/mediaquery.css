@@ -6,7 +6,13 @@
         align-items: center;
         width: 100%;
         margin-top: 0;
+        
     }
+    body{
+        margin: 0;
+        
+    }
+    
 }
 
 @media screen and (max-width: 419px) {
@@ -44,6 +50,13 @@
     }
     #why .row>.first,
     #why .row>.second,
-    #why .row>.third
+    #why .row>.third {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .container{
+        padding: 10px;
+        box-sizing: border-box;
+    }
 
 }
